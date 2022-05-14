@@ -1,7 +1,7 @@
 # Modern Java Technologies @ Курс във ФМИ #
 
 [***>Материали 2020/2021(2022)<***](https://github.com/fmi/java-course)
-![Duke](Java_Duke_learning.png)
+![Duke](Java_Duke_learning.png =250x)
 
 ### Лекции ###
 | # | Тема | Лекция |
