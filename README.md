@@ -8,7 +8,7 @@
 ### Лекции ###
 | # | Тема | Лекция | Задача |
 | - | :--- | :----- | :----- |
-| 1 | Въведение в Java | [слайдове](https://fmi.github.io/java-course/01-intro-to-java/lecture/slides.html) | [name](https://github.com/lia2353/Modern_Java_Technologies) |
+| 1 | Въведение в Java | [слайдове](https://fmi.github.io/java-course/01-intro-to-java/lecture/slides.html) | [Социално дистанциране](https://github.com/lia2353/Modern_Java_Technologies),  |
 | 2 | ООП с Java (част I) | [слайдове](https://fmi.github.io/java-course/02-oop-in-java-i/lecture/slides.html) | [name](https://github.com/lia2353/Modern_Java_Technologies) |
 | 3 | ООП с Java (част II) | [слайдове](https://fmi.github.io/java-course/03-oop-in-java-ii/lecture/slides.html) | [name](https://github.com/lia2353/Modern_Java_Technologies) |
 | 4 | Clean Code \| Collections | [слайдове](https://fmi.github.io/java-course/04-clean-code-collections/lecture/slides.html) | [name](https://github.com/lia2353/Modern_Java_Technologies) |
