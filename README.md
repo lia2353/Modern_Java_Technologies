@@ -1,9 +1,9 @@
-# Modern Java Technologies @ Курс във ФМИ
+# Modern Java Technologies @ Курс във ФМИ #
 
 [***>Материали 2020/2021(2022)<***](https://github.com/fmi/java-course)
 ![Duke](Java_Duke_learning.png)
 
-### Лекции
+### Лекции ###
 | # | Тема | Лекция |
 | - | :--- | :----- |
 | 1 | Въведение в Java | [слайдове](https://fmi.github.io/java-course/01-intro-to-java/lecture/slides.html) |
@@ -20,3 +20,12 @@
 | 11 | HTTP, REST и JSON | [слайдове](https://fmi.github.io/java-course/11-http-rest/lecture/slides.html) |
 | 12 | Design Patterns | [слайдове](https://fmi.github.io/java-course/12-design-patterns/lecture/slides.html) |
 | 13 | Reactive Programming \| Java виртуалната машина | [слайдове](https://fmi.github.io/java-course/13-reactive-jvm/lecture/slides.html) |
+
+
+### Homeworks ###
+|   | Task | Solution | 
+| - | :--- | :--- | 
+| 1 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
+| 2 | [name](https://github.com/lia2353/Modern_Java_Technologiesd) |
+| 3 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
+    
