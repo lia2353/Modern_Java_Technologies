@@ -22,15 +22,15 @@
 | 13 | Reactive Programming \| Java виртуалната машина | [слайдове](https://fmi.github.io/java-course/13-reactive-jvm/lecture/slides.html) | [name](https://github.com/lia2353/Modern_Java_Technologies) |
 
 
-### Homeworks ###
+### Домашни ###
 |   | Задача | 
 | - | :--- | 
 | 1 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
 | 2 | [name](https://github.com/lia2353/Modern_Java_Technologiesd) |
 | 3 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
 
-### Course Project ###
-| Задача |
+### Курсов проект ###
+| Тема |
 | :--- |
 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
     
