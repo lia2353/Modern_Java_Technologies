@@ -21,9 +21,10 @@ public static String[] extractIngredients(String sandwich)
 
 | Извикване                                                                            | Резултат              |
 | :----------------------------------------------------------------------------------- | :-------------------- |
-| `extractIngredients("asdbreadham-tomato-mayobreadblabla")`                | `{ham, mayo, tomato}` |
-| `extractIngredients("asdbreadham-olives-tomato-olives-mayobreadblabla")` | `{ham, mayo, tomato}` |
-| `extractIngredients("asdbreadham")`                                                | `{}`                  |
+| `extractIngredients("asdbreadham-tomato-mayobreadblabla")`                           | `{ham, mayo, tomato}` |
+| `extractIngredients("asdbreadham-olives-tomato-olives-mayobreadblabla")`             | `{ham, mayo, tomato}` |
+| `extractIngredients("asdbreadham")`                                                  | `{}`                  |
+| `extractIngredients("onionbreadolives-olivesbreadblabla")`                           | `{}`                  |
 
 
 ### :warning: Забележки
