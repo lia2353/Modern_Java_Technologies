@@ -22,7 +22,12 @@ public static int maxDistance(int[] seats)
 |:----------------------------------------------|:-------- |
 | `maxDistance(new int[]{1, 0, 0, 0, 1, 0, 1})` | `2`      |
 | `maxDistance(new int[]{1,0,0,0})`             | `3`      |
+| `maxDistance(new int[]{0, 0, 0, 1, 0, 1})`    | `3`      |
 | `maxDistance(new int[]{0, 1})`                | `1`      |
+| `maxDistance(new int[]{0, 0, 0, 0, 0})`       | `5`      |
+| `maxDistance(new int[]{1, 1, 1, 1})`          | `0`      |
+| `maxDistance(new int[]{1, 0, 0, 1, 1, 0})`    | `1`      |
+
 
 ### :warning: Забележки
 
