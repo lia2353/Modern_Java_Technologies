@@ -1,4 +1,5 @@
 public class WeatherForecaster {
+    
     // O(N^2)
     public static int[] getsWarmerIn(int[] temperatures) {
         if (temperatures == null) {
