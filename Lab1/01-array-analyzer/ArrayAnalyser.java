@@ -1,4 +1,5 @@
 public class ArrayAnalyser {
+    
     public static boolean isMountainArray(int[] array) {
         if (array.length < 3) {
             return false;
@@ -18,4 +19,5 @@ public class ArrayAnalyser {
 
         return position == length - 1;
     }
+    
 }
