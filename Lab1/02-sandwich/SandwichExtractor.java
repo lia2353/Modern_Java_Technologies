@@ -1,8 +1,7 @@
-package sandwich;
-
 import java.util.Arrays;
 
 public class SandwichExtractor_mySolution {
+    
     public static String[] extractIngredients(String sandwich) {
         String[] splitSandwich = sandwich.split("bread");
 
@@ -24,4 +23,5 @@ public class SandwichExtractor_mySolution {
 
         return extractedIngredients;
     }
+    
 }
