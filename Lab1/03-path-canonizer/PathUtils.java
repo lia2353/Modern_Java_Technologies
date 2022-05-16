@@ -1,5 +1,3 @@
-import java.util.Arrays;
-
 public class PathUtils {
 
     private static final String PATH_SEPARATOR = "/";
