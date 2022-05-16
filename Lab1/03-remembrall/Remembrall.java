@@ -1,6 +1,5 @@
-package remembrall;
-
 public class Remembrall {
+    
     public static boolean isPhoneNumberForgettable(String phoneNumber) {
 
         // if null or empty, phoneNumber can NOT be forgotten
