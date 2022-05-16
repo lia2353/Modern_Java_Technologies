@@ -1,6 +1,5 @@
-package social.distancing;
-
 public class SocialDistanceMaximizer_mySolution {
+    
     public static int maxDistance(int[] seats) {
         int maxDistance = 0;
         int currentMaxDistance = 0;
@@ -36,4 +35,5 @@ public class SocialDistanceMaximizer_mySolution {
 
         return maxDistance;
     }
+    
 }
