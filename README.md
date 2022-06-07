@@ -1,10 +1,10 @@
-# Съвременни Java Технологии @ Курс във ФМИ #
+# Съвременни Java Технологии @ Курс във ФМИ
 [<img src="Java_Duke_learning.png" width="150" align="right"/>](Java_Duke_learning.png)
 
 ### Материали 2020/2021/2022 [***Git***](https://github.com/fmi/java-course)
 <!-- [***Грейдър***](https://codepost.io/student/MJT2022/Winter%202021%2F2022/) -->
 
-### Лекции ###
+### Лекции 
 | # | Тема | Лекция | Задача |
 | - | :--- | :----- | :----- |
 | 1 | Въведение в Java | [слайдове](https://fmi.github.io/java-course/01-intro-to-java/lecture/slides.html) | [Социално дистанциране](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Lab1/01-social-distancing), [Планински масив](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Lab1/01-array-analyzer), [Сандвич](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Lab1/02-sandwich), [Прогноза за времето](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Lab1/02-weather-forecaster), [Къса памет](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Lab1/03-remembrall), [Каноничен директорен път](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Lab1/03-path-canonizer)|
@@ -23,14 +23,14 @@
 | 13 | Reactive Programming \| Java виртуалната машина | [слайдове](https://fmi.github.io/java-course/13-reactive-jvm/lecture/slides.html) | [name](https://github.com/lia2353/Modern_Java_Technologies) |
 
 
-### Домашни ###
+### Домашни
 |   | Задача | 
 | - | :--- | 
 | 1 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
 | 2 | [name](https://github.com/lia2353/Modern_Java_Technologiesd) |
 | 3 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
 
-### Курсов проект ###
+### Курсов проект
 | Тема |
 | :--- |
 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
