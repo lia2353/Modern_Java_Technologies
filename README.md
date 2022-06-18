@@ -26,14 +26,14 @@
 ### Домашни
 |   | Задача | 
 | - | :--- | 
-| 1 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
-| 2 | [name](https://github.com/lia2353/Modern_Java_Technologiesd) |
-| 3 | [name](https://github.com/lia2353/Modern_Java_Technologies) |
+| 1 | [Social Media Inator](https://github.com/lia2353/Modern_Java_Technologies) |
+| 2 | [Spell Check Tool](https://github.com/lia2353/Modern_Java_Technologiesd) |
+| 3 | [Secret Santa Wish List](https://github.com/lia2353/Modern_Java_Technologies) |
 
 ### Курсов проект
 | Тема |
 | :--- |
-| [name](https://github.com/lia2353/Modern_Java_Technologies) |
+| [Split(NotSo)Wise]([https://github.com/lia2353/Modern_Java_Technologies](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Project)) |
     
 
 **Lab4
