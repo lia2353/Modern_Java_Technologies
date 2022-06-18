@@ -26,9 +26,9 @@
 ### Домашни
 |   | Задача | 
 | - | :--- | 
-| 1 | [Social Media Inator](https://github.com/lia2353/Modern_Java_Technologies) |
-| 2 | [Spell Check Tool](https://github.com/lia2353/Modern_Java_Technologiesd) |
-| 3 | [Secret Santa Wish List](https://github.com/lia2353/Modern_Java_Technologies) |
+| 1 | [Social Media Inator](https://github.com/lia2353/Modern_Java_Technologies](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Homework1) |
+| 2 | [Spell Check Tool](https://github.com/lia2353/Modern_Java_Technologiesd](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Homework2) |
+| 3 | [Secret Santa Wish List](https://github.com/lia2353/Modern_Java_Technologies](https://github.com/la2353/Modern_Java_Technologies/tree/main/Homework3) |
 
 ### Курсов проект
 | Тема |
