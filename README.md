@@ -33,7 +33,7 @@
 ### Курсов проект
 | Тема |
 | :--- |
-| [Split(NotSo)Wise]([https://github.com/lia2353/Modern_Java_Technologies](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Project)) |
+| [Split(NotSo)Wise](https://github.com/lia2353/Modern_Java_Technologies](https://github.com/lia2353/Modern_Java_Technologies/tree/main/Project) |
     
 
 **Lab4
