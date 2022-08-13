@@ -7,8 +7,18 @@ import java.time.Duration;
 import java.time.LocalDateTime;
 import java.util.*;
 
-
 public class SmartCityHub {
+
+    private static final String DEVICE_IS_NULL_MESSAGE = "Provided device is null";
+    private static final String ID_IS_NULL_MESSAGE = "Provided ID is null";
+    private static final String TYPE_IS_NULL_MESSAGE = "Provided type is null";
+    private static final String DEVICE_IS_ALREADY_REGISTERED_MESSAGE = "Provided device is already registered";
+    private static final String DEVICE_IS_NOT_REGISTERED_MESSAGE =
+            "Provided device is not found in the registered devices";
+    private static final String DEVICE_WITH_ID_IS_NOT_REGISTERED_MESSAGE =
+            "Device with given id is not found in the registered devices";
+    private static final String NEGATIVE_NUMBER_DEVICES_MESSAGE = "Negative number of devices";
+
     private final Map<String, SmartDevice> deviceRegistry;
     private final Map<DeviceType, Integer> quantityPerDeviceType;
 
@@ -25,10 +35,10 @@ public class SmartCityHub {
      */
     public void register(SmartDevice device) throws DeviceAlreadyRegisteredException {
         if (device == null) {
-            throw new IllegalArgumentException("Device is null"); //run-time exception
+            throw new IllegalArgumentException(DEVICE_IS_NULL_MESSAGE); // run-time exception
         }
         if (deviceRegistry.containsKey(device.getId())) {
-            throw new DeviceAlreadyRegisteredException("Device is already registered");
+            throw new DeviceAlreadyRegisteredException(DEVICE_IS_ALREADY_REGISTERED_MESSAGE);
         }
 
         deviceRegistry.put(device.getId(), device);
@@ -43,10 +53,10 @@ public class SmartCityHub {
      */
     public void unregister(SmartDevice device) throws DeviceNotFoundException {
         if (device == null) {
-            throw new IllegalArgumentException("Device is null"); //run-time exception
+            throw new IllegalArgumentException(DEVICE_IS_NULL_MESSAGE); // run-time exception
         }
         if (!deviceRegistry.containsKey(device.getId())) {
-            throw new DeviceNotFoundException("Device is not found in the registered devices");
+            throw new DeviceNotFoundException(DEVICE_IS_NOT_REGISTERED_MESSAGE);
         }
 
         deviceRegistry.remove(device.getId());
@@ -61,10 +71,10 @@ public class SmartCityHub {
      */
     public SmartDevice getDeviceById(String id) throws DeviceNotFoundException {
         if (id == null) {
-            throw new IllegalArgumentException("Id is null");
+            throw new IllegalArgumentException(ID_IS_NULL_MESSAGE);
         }
         if (!deviceRegistry.containsKey(id)) {
-            throw new DeviceNotFoundException("Device with given id is not found in the registered devices");
+            throw new DeviceNotFoundException(DEVICE_WITH_ID_IS_NOT_REGISTERED_MESSAGE);
         }
 
         return deviceRegistry.get(id);
@@ -77,7 +87,7 @@ public class SmartCityHub {
      */
     public int getDeviceQuantityPerType(DeviceType type) {
         if (type == null) {
-            throw new IllegalArgumentException("Type is null");
+            throw new IllegalArgumentException(TYPE_IS_NULL_MESSAGE);
         }
 
         return getQuantity(type);
@@ -97,7 +107,7 @@ public class SmartCityHub {
      */
     public Collection<String> getTopNDevicesByPowerConsumption(int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("Negative number of devices");
+            throw new IllegalArgumentException(NEGATIVE_NUMBER_DEVICES_MESSAGE);
         }
         if (n > deviceRegistry.size()) {
             n = deviceRegistry.size();
@@ -109,6 +119,7 @@ public class SmartCityHub {
                 return compareDevicePowerConsumption(deviceRegistry.get(idFirst), deviceRegistry.get(idSecond));
             }
         });
+
         return new ArrayList<>(list).subList(0, n);
     }
 
@@ -134,7 +145,7 @@ public class SmartCityHub {
      */
     public Collection<SmartDevice> getFirstNDevicesByRegistration(int n) {
         if (n < 0) {
-            throw new IllegalArgumentException("Negative number of devices");
+            throw new IllegalArgumentException(NEGATIVE_NUMBER_DEVICES_MESSAGE);
         }
         if (n >= deviceRegistry.size()) {
             return deviceRegistry.values();
@@ -164,4 +175,5 @@ public class SmartCityHub {
 
         return currentQuantity;
     }
+
 }

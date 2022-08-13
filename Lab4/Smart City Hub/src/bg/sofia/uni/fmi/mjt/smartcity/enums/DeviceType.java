@@ -1,6 +1,7 @@
 package bg.sofia.uni.fmi.mjt.smartcity.enums;
 
 public enum DeviceType {
+
     TRAFFIC_LIGHT("TFL"),
     LAMP("LM"),
     CAMERA("CM");
@@ -14,4 +15,5 @@ public enum DeviceType {
     public String getShortName() {
         return shortName;
     }
+
 }

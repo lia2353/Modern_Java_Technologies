@@ -11,6 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
+
     public static void main(String[] args) {
         SmartCityHub myHub = new SmartCityHub();
 
@@ -31,7 +32,7 @@ public class Main {
 
         System.out.println("First n registered:");
         List<SmartDevice> top1 = new ArrayList<SmartDevice>(myHub.getFirstNDevicesByRegistration(3));
-        for(int i=0; i<top1.size(); ++i) {
+        for (int i = 0; i < top1.size(); ++i) {
             System.out.print(top1.get(i).getId() + ", ");
         }
         System.out.println(' ');
@@ -44,7 +45,7 @@ public class Main {
 
         System.out.println("First n by power consumption:");
         List<String> top2 = new ArrayList<String>(myHub.getTopNDevicesByPowerConsumption(3));
-        for(int i=0; i<top2.size(); ++i) {
+        for (int i = 0; i < top2.size(); ++i) {
             System.out.print(top2.get(i) + ", ");
         }
         System.out.println();
@@ -53,4 +54,5 @@ public class Main {
         System.out.println(myHub.getDeviceQuantityPerType(DeviceType.LAMP));
         System.out.println(myHub.getDeviceQuantityPerType(DeviceType.TRAFFIC_LIGHT));
     }
+
 }

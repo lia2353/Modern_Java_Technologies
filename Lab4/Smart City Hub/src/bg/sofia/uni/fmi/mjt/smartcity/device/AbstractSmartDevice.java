@@ -6,13 +6,14 @@ import bg.sofia.uni.fmi.mjt.smartcity.enums.DeviceType;
 import java.time.LocalDateTime;
 import java.util.Objects;
 
-public abstract class AbstractSmartDevice implements SmartDevice{
+public abstract class AbstractSmartDevice implements SmartDevice {
+
     private final String id;
     private final String name;
     private final double powerConsumption;
     private final LocalDateTime installationDateTime;
 
-    //protected -> this constructor is needed only in it's children - SmartLamp, SmartTrafficLight and SmartCamera
+    // protected -> this constructor is needed only in its children - SmartLamp, SmartTrafficLight and SmartCamera
     protected AbstractSmartDevice(String name, double powerConsumption, LocalDateTime installationDateTime) {
         this.name = name;
         this.powerConsumption = powerConsumption;
@@ -43,7 +44,7 @@ public abstract class AbstractSmartDevice implements SmartDevice{
     @Override
     public abstract DeviceType getType();
 
-    String generateId() {
+    private String generateId() {
         return DeviceIdGenerator.generateId(getType(), name);
     }
 

@@ -5,6 +5,7 @@ import bg.sofia.uni.fmi.mjt.smartcity.enums.DeviceType;
 import java.time.LocalDateTime;
 
 public interface SmartDevice {
+
     /**
      * Returns the ID of the device.
      */
@@ -32,4 +33,5 @@ public interface SmartDevice {
      * Returns the type of the device.
      */
     DeviceType getType();
+
 }
